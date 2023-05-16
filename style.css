@@ -1,0 +1,92 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outerbox{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left , aqua , blue);
+}
+
+.innerbox{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding : 20px 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px grey;
+    background: linear-gradient(to top left , #ffffffff , #ffffff33);
+}
+
+.signheader h1{
+    font-size: 2rem;
+}
+.signheader p{
+    font-size: 1rem;
+    color: #6e6c6c;
+}
+
+.signmain{
+    margin: 20px 0;
+}
+
+.signmain p{
+    margin: 10px 0;
+}
+
+.signmain p label{
+    font-weight: bold;
+    display: block;
+}
+
+.signmain p input{
+    width: 100%;
+    padding 10px;
+    border: 2px solid rgb(189, 183, 183);
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+.signmain p input[type = "submit"]{
+    background-color: rgb(53, 53, 213);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.signmain p input[type = "submit"]:hover{
+    background-color: blue;
+}
+
+footer{
+    text-align: center;
+}
+
+.signfooter p a{
+    color:rgb(47, 47, 213);
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background: linear-gradient(to top right , white , pink);
+    position: absolute;
+}
+.c1{
+    top: 100px;
+    left: 50px;
+}
+.c2{
+    bottom: 80px;
+    right: 30px;
+}
+
